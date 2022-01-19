@@ -2,7 +2,7 @@
 
 Trying to get ansible-playbook working with a custom roles_path
 
-I generated a role using `ansible-galaxy init test-role-1` under ~/devel/ansible/roles`.
+I generated a role using `ansible-galaxy init test-role-1` under `~/devel/ansible/roles`.
 I generated `ansible.cfg` using `ansible-config init --disabled > ansible.cfg` and added `~/devel/ansible/roles` to `roles_path`.
 
 When I run `ansible-playbook playbook.yaml` I get the following error:
