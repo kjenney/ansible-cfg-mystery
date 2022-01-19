@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  gather_facts: true
+  name: Local Ansible Playbook
+  become: false
+  vars:
+    is_local: true
+  roles:
+    - test-role-1
