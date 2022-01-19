@@ -11,6 +11,6 @@ When I run `ansible-playbook playbook.yaml` I get the following error:
 ERROR! the role 'test-role-1' was not found in....
 ```
 
-If I put The role under `roles` in this directory the playbook is run fine. 
+If I put the role under `roles` in this directory the playbook is run fine. 
 
 What am I missing?
